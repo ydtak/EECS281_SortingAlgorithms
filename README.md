@@ -88,6 +88,9 @@ Quick sort is **not stable** and **not adaptive**. Quick sorts partitions the li
 ---
 
 ####Merge Sort
+
+https://cdn.programiz.com/sites/tutorial2program/files/merge-sort-example_0.png
+
 Merge sort is **stable** and **not adaptive**. Merge sort recursively partitions the list into halves until there are n *sorted* partitions, each partition *initially* containing one element. The sorted partitions are repeatedly merged together until there is only a single partition (which is the sorted list).
 - **Best Time:** O(n\*log(n))
 - **Average Time:** O(n\*log(n))
@@ -97,6 +100,9 @@ Merge sort is **stable** and **not adaptive**. Merge sort recursively partitions
 ---
 
 ####Heap Sort
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hackerearth.com%2Fpractice%2Falgorithms%2Fsorting%2Fheap-sort%2Ftutorial%2F&psig=AOvVaw3-v1JPJKlXeYoouHLsLBeE&ust=1602460460866000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNCqs7icq-wCFQAAAAAdAAAAABAD
+
 Heap sort is **not stable** and **not really adaptive**. Heap sort is accomplished using heap magic. First you heapify (O(n)) the list so the list becomes a heap (complete binary tree). Then you repeatedly pop (log(n)) the max of the heap and insert it into the sorted list.
 
 **Quick rundown:**
